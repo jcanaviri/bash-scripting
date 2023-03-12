@@ -16,7 +16,7 @@ i=0
 while [ "$i" -le 3 ]; do
     # The '-n' indicates no create a new line character at the end
     echo -n "$i "
-    sleep 2
+    sleep 1
     ((i++))
 done
 
