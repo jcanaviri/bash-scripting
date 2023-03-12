@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#! /bin/bash
 name=$1
 attribute=$2
 user=$(whoami)

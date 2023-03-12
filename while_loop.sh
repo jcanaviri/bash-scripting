@@ -1,4 +1,4 @@
-#!/bin/bash
+#! /bin/bash
 
 # Ask for the user input
 while true; do
