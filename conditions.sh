@@ -4,7 +4,7 @@
 # the script will not work.
 age=16
 
-if [ $age -ge 18 ]; then 
+if [ $age -ge 18 ]; then
     echo "You are an adult"
 else
     echo "access denied"
@@ -12,7 +12,7 @@ fi
 
 if [ $age -eq 16 ]; then
     echo "Happy sweet 16 🥳"
-elif [ $age -eq 18 ]; then
+    elif [ $age -eq 18 ]; then
     echo "Congratulations you have become an adult."
 fi
 
@@ -30,6 +30,6 @@ password="123"
 
 if [[ "$user" == "josue" && "$password" == "123" ]]; then
     echo "Log in"
-else 
+else
     echo "Access denied"
 fi
