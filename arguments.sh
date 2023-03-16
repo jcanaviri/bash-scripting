@@ -1,12 +1,12 @@
 #!/bin/bash
 
+# $@ is a way to get all the arguments
 args=("$@")
+
+# $# is the size of the argsuments
 argsCounter=$#
 
 echo -n "Your arguments are: "
-for arg in "$args"; do
-    echo -n "$arg "
-done
+echo "${args[*]}"
 
-echo ""
 echo "You have passed $argsCounter arguments."
