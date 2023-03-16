@@ -1,14 +1,14 @@
 #! /bin/bash
 
-echo -n "Choose between 1 and 2: "
+echo -n "Choose between A or B: "
 read value
 
-case $value in 
-    1)
-        echo "You choose 1"
+case $value in
+    A)
+        echo "You choose A"
     ;;
-    2)
-        echo "You choose 2"
+    B)
+        echo "You choose B"
     ;;
     *)
         echo "Incorrect"
