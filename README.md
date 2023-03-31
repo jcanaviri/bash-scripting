@@ -10,8 +10,21 @@ It's also called **shell**, because envolves the operating system details.
 
 There is no one creator, they were many:
 
-* *Ken Thompson*, created *Tompson shell* in 1971.
+- _Ken Thompson_, created _Tompson shell_ in 1971.
 
-* *Stephen Bourne*, created *Bourne shell* in 1979.
+- _Stephen Bourne_, created _Bourne shell_ in 1979.
 
-* *Brian Fox*, created *The bourne-again shell* in 1989.
+- _Brian Fox_, created _The bourne-again shell_ in 1989.
+
+### **Mode of use** 🧑‍💻
+
+The code present was used in a WSL enviroment(Ubuntu 22.04.2 LTS on Windows 10 x86_64)
+
+To execute the programs you only have to executed in one of the following ways:
+
+```shell
+$ bash somefile.sh  # Execute a bash file
+$ bash ./somefile.sh  # Execute a bash file
+$ bash somefile.sh param1 param2 ... # Execute a bash file
+$ bash ./somefile.sh param1 param2 ... # Execute a bash file
+```
